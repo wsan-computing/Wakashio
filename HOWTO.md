@@ -13,7 +13,7 @@ https://console.firebase.google.com/ にアクセス。
 
 ## 4. Webアプリを追加する
 3.で作ったプロジェクトの画面にて`</>` をクリック。  
-アプリのニックネームに`Wakashio`と入力。`このアプリの Firebase Hosting も設定します。`にはチェックを入れないで、`アプリを登録`をクリック。  
+アプリのニックネームに`Wakashio`と入力。`このアプリの Firebase Hosting も設定します。`にはチェックを入れない。`アプリを登録`をクリック。  
 `Firebase SDK の追加`という項目とともに以下のようなJavaScriptコードが表示される。  
 ```JavaScript=
 const firebaseConfig = {
@@ -28,7 +28,7 @@ const firebaseConfig = {
 上記コードについて、オブジェクトの中身(`apiKey`の行から`appId`の行まで)のみコピーして、`src/environments
 /environment.development.ts`に貼り付ける。  
 `src/environments
-/environment.development.ts`には元々ダミーの情報が書かれているので、書き方はそちらを参考にすること。　　
+/environment.development.ts`には元々ダミーの情報が書かれているので、書き方はそちらを参考にすること。  
 `コンソールに戻る`をクリック。  
 
 ## 5. ローカルでサーバを動かす
