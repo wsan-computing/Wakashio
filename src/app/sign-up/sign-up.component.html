@@ -1,0 +1,5 @@
+<form class="signup-form" #form="ngForm" (ngSubmit)="signup(form)">
+  <input ngModel type="email" name="email" class="email-form" placeholder="メールアドレスを入力">
+  <input ngModel type="password" name="password" class="pass-form" placeholder="パスワードを入力">
+  <button type="submit" class="submit">新規登録</button>
+</form>

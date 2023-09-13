@@ -1,0 +1,7 @@
+<h1>Firebaseの認証サンプル</h1>
+<h2 *ngIf="!isLoggedIn">ログインまたは新規登録してください</h2>
+<h2 *ngIf="isLoggedIn">ログインが成功しました</h2>
+
+<p><a *ngIf="!isLoggedIn" routerLink="/signup">新規登録</a></p>
+<p><a *ngIf="!isLoggedIn" routerLink="/login">ログイン</a></p>
+<p><a *ngIf="isLoggedIn" routerLink="/" (click)="logout()">ログアウト</a></p>
